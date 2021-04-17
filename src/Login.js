@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import { accessUrl } from "./spotify";
 
 function Login() {
   return (
@@ -9,7 +10,7 @@ function Login() {
         alt=""
       />
 
-      <button>LOGIN WITH SPOTIFY</button>
+      <a href={accessUrl}>LOGIN WITH SPOTIFY</a>
     </div>
   );
 }
